@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Movie times</title>
+</head>
+<body>
+
+ <div class="container">
+    <div class="shadow-sm p-3 mb-5 bg-body rounded">
+    <form id="questions">
+      
+      <label for="question1"><strong>What show are you going to see?</strong></label>
+      <select class="form-control" id="question1">
+        <option value="0">---Select--- </option>
+        <option value="1">The Matrix</option>
+        <option value="2">Madagascar</option>
+        <option value="3">The Incredibles</option>
+      </select>
+
+      <label for="question2"><strong>What time is the movie?</strong></label>
+      <select class="form-control" id="question2">
+        <option value="0">---Select--- </option>
+        <option value="1">1:00pm</option>
+        <option value="2">3:00pm</option>
+        <option value="3">8:00pm</option>
+      </select>
+
+      <label for="question3"><strong>How old are you?</strong></label>
+      <select class="form-control" id="question3">
+        <option value="0">---Select--- </option>
+        <option value="1">Younger than 16</option>
+        <option value="2">Older than 65</option>
+        <option value="3">Older than 16</option>
+      </select><br>
+
+      <div class="submitButton">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+
+
+    </form>
+    </div>
+    <div id="total-due">
+    </div>
+ </div>
+</body>
+</html>
+
+    
